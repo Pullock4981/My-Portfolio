@@ -3,6 +3,8 @@
 *{
     font-family: 'Open Sans', sans-serif; 
     font-family: 'Lato',sans-serif ; 
+    margin: 0;
+    padding: 0;
 
 }
 .primary-text{
@@ -33,6 +35,7 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+    padding: 0px 100px;
 }
 
 .about-title{
@@ -57,6 +60,7 @@
     background-image: url(images/header_bg.png);
      background-repeat: no-repeat;
      background-position: bottom right;
+    padding-top: 50px;
 }
 
 /* nav style */
@@ -134,45 +138,53 @@ nav a{
 
 /* main style */
 main{
-    max-width: 2140px;
+    max-width: 1140px;
     margin: 0 auto; 
 }
 
 /* about */
 
 .about{
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-right: 150px;
-    padding-left: 150px;
+    padding: 100px 0px;
     border-radius: 10px;
     background: #FFF8F3;
-    margin: 130px;
+    margin-top: 130px;
+    width: 1140px;
+    height: 300px;
+
 }
 
 .about-info-container{
     display: flex;
     justify-content: space-around;
+    padding: 0 77px;
 }
 
 /* what i do */
 
+.what-i-do{
+    padding-top: 100px;
+}
+
 #what-i-do-p{
-    padding: 0px 320px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 /* skills */
 
 .skills-container{
     display: flex;
-    margin:130px;
+    margin:13px;
+    gap: 24px;
     justify-content: space-around;
+    padding-bottom: 50px;
 }
 
 .skill{
     padding: 30px;
-    gap: 24px;
-    width: 200px;
+    width: 280px;
     height: 300px;
     border-radius: 5px;
     background: #FFF;
